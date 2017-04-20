@@ -30,7 +30,8 @@ int main() {
   int r;
   for(int i = 0; i < n; i++) {
     for(int j = 0; j < n; j++) {
-      scanf("%d", &r);
+      //scanf("%d", &r);
+	  r=rand()%1000;
       matrix_index_set(A, i, j, r);
     }
   }
