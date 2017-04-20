@@ -111,10 +111,10 @@ int main(int argc, char** argv){
 	} */
 
     int* invert = (int*)calloc(sizeof(int), pix_num);
-	//int image_val;
-#pragma omp parallel for num_threads(thread_num)
+	int image_val;
+#pragma omp parallel for num_threads(thread_num), private(image_val)
     for(int i = 0; i < size; i++){
-        int image_val = image[i]; 
+        image_val = image[i]; 
 #pragma omp critical
         invert[image_val]++;
     }
