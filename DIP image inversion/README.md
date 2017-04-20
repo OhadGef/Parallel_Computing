@@ -15,6 +15,6 @@ pthread.c : which does image inversion in C with naive implementation.
 compile using gcc -lpthread serial.c 
 run : ./a.out <image>.bmp <no of threads to run on>
 
-For test case : 4 image files have been uploaded : img1.bmp, img2.bmp, img3.bmp, new1.bmp
+For test case : 4 image files have been uploaded : img1.bmp, img2.bmp, img3.bmp, test1.bmp
 
 The output will be a newly converted bmp image named : "out.bmp"
