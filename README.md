@@ -9,7 +9,7 @@ Next, a file named StrassenThread.java which has Strassen's algo done in paralle
 
 All the files can be compiled by just using javac <filename>.java and then run using java <filenmame>
 Once ran, every file expects the user to input the array size. Make sure the array size is given in powers of 2.
-(2,4,8,16,32,64,12,256,512,1024.....)
+(2,4,8,16,32,64,12,256,512,1024.....). It then randomly generates numbers to fill the array.
 The output will be the time taken to execute the program.
 the result of computtation is commented out which can be uncommented to get results.
 
